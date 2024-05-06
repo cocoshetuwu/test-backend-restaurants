@@ -8,7 +8,7 @@ const database = new Sequelize(
   {
     dialect: "mysql",
     dialectOptions: { decimalNumbers: true },
-    port: 3306,
+    port: process.env.DB_PORT,
     pool: {
       max: 5,
       min: 0,
