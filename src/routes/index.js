@@ -1,5 +1,5 @@
-const restaurant = require('./restaurant.route');
+const restaurants = require('./restaurant.route');
 
 module.exports = {
-    restaurant: restaurant,
+    restaurants: restaurants,
 };
